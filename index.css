@@ -1,0 +1,71 @@
+body{
+    display: grid;
+    grid-template-areas: "header header" "listaProductos listaCarrito" "productosPredeterminados productosPredeterminados";
+    background-color: aqua;
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#listaProductos{
+    grid-area: listaProductos;
+    text-align: center;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding-bottom: 2rem;
+}
+
+#listaCarrito{
+    grid-area: listaCarrito;
+    text-align: center;
+    border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#productosPredeterminados{
+    grid-area: productosPredeterminados;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#contenedor, #contenedorCarrito{
+    list-style: none;
+}
+
+.botonAgregar, .botonModificar, .botonEliminar{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.botonAgregar{
+    background-color: rgb(27, 238, 73);
+    border-color: rgb(24, 212, 65);
+}
+.botonAgregar:hover{
+    background-color: rgb(24, 212, 65);
+    border-color: rgb(24, 212, 65);
+}
+
+.botonModificar{
+    background-color: rgb(238, 216, 20);
+    border-color: rgb(206, 187, 17);
+}
+.botonModificar:hover{
+    background-color: rgb(206, 187, 17);
+    border-color: rgb(206, 187, 17);
+}
+
+.botonEliminar{
+    background-color: rgb(231, 26, 26);
+    border-color: rgb(206, 23, 23);
+}
+.botonEliminar:hover{
+    background-color: rgb(206, 23, 23);
+    border-color: rgb(206, 23, 23);
+}

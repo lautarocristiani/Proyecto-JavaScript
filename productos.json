@@ -1,0 +1,7 @@
+[
+    {"nombre": "Coca-Cola", "precio": 200, "id": 38},
+    {"nombre": "Fideos", "precio": 180, "id": 17},
+    {"nombre": "Jabon", "precio": 130, "id": 54},
+    {"nombre": "Aceite", "precio": 250, "id": 3},
+    {"nombre": "Leche", "precio": 170, "id": 11}
+]
